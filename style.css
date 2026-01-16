@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.pet-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.pet-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.badge {
+  background: #ffcc00;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.pet-stats {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.pet-description h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pet-description p {
+  line-height: 1.5;
+  color: #666;
+}
